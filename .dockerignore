@@ -1,0 +1,24 @@
+# Ignore npm/yarn lock files
+package-lock.json
+yarn.lock
+
+# Ignore node_modules (we'll install dependencies in Dockerfile)
+node_modules/
+
+# Ignore built artifacts
+dist/
+
+# Ignore any editor-specific files
+.vscode/
+.idea/
+
+# Ignore tests or testing-related files
+tests/
+coverage/
+
+# Ignore Docker-specific files
+.dockerignore
+Dockerfile.dev
+
+# Ignore development server config if not needed
+<!-- vite.config.ts -->
